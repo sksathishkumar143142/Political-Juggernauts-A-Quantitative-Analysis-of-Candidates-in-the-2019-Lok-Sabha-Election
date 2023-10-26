@@ -1,0 +1,2087 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0909.1159                               -->
+<workbook original-version='18.1' source-build='2023.2.2 (20232.23.0909.1159)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='Book3_16978541112210' path='/workbooks' revision='1.1' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Political Juggernauts (2)' inline='true' name='federated.0uyh0c80v984xn1go5xj10dqs4ug' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Political Juggernauts' name='textscan.155befr1j29kaq115vg6o0bfwp8g'>
+            <connection class='textscan' directory='C:/Users/ELCOT/AppData/Desktop/Downloads' filename='Political Juggernauts.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.155befr1j29kaq115vg6o0bfwp8g' name='Political Juggernauts.csv' table='[Political Juggernauts#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='STATE' ordinal='0' />
+            <column datatype='string' name='CONSTITUENCY' ordinal='1' />
+            <column datatype='string' name='NAME' ordinal='2' />
+            <column datatype='integer' name='WINNER' ordinal='3' />
+            <column datatype='string' name='PARTY' ordinal='4' />
+            <column datatype='string' name='SYMBOL' ordinal='5' />
+            <column datatype='string' name='GENDER' ordinal='6' />
+            <column datatype='integer' name='&quot;CRIMINAL' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='integer' name='F19' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.155befr1j29kaq115vg6o0bfwp8g' name='Political Juggernauts.csv' table='[Political Juggernauts#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='STATE' ordinal='0' />
+            <column datatype='string' name='CONSTITUENCY' ordinal='1' />
+            <column datatype='string' name='NAME' ordinal='2' />
+            <column datatype='integer' name='WINNER' ordinal='3' />
+            <column datatype='string' name='PARTY' ordinal='4' />
+            <column datatype='string' name='SYMBOL' ordinal='5' />
+            <column datatype='string' name='GENDER' ordinal='6' />
+            <column datatype='integer' name='&quot;CRIMINAL' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='integer' name='F19' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='quote-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATE]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>STATE</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONSTITUENCY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CONSTITUENCY]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>CONSTITUENCY</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WINNER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WINNER]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>WINNER</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PARTY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PARTY]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>PARTY</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SYMBOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SYMBOL]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>SYMBOL</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENDER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GENDER]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>GENDER</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>&quot;CRIMINAL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[&quot;CRIMINAL]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>&quot;CRIMINAL</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='&quot;Criminal' datatype='integer' name='[&quot;CRIMINAL]' role='measure' type='quantitative' />
+      <column caption='Constituency' datatype='string' name='[CONSTITUENCY]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+      <column caption='Party' datatype='string' name='[PARTY]' role='dimension' type='nominal' />
+      <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Symbol' datatype='string' name='[SYMBOL]' role='dimension' type='nominal' />
+      <column caption='Winner' datatype='integer' name='[WINNER]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Political Juggernauts.csv' datatype='table' name='[__tableau_internal_object_id__].[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/ELCOT/Documents/My Tableau Repository/Datasources/data sourese/Political Juggernauts (3).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>STATE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STATE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STATE</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>314</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CONSTITUENCY</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CONSTITUENCY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CONSTITUENCY</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1598</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NAME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NAME</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1688</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WINNER</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[WINNER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WINNER</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1574</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PARTY</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PARTY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PARTY</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1340</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SYMBOL</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SYMBOL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SYMBOL</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1145</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GENDER</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GENDER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GENDER</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>538</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>&quot;CRIMINAL</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[&quot;CRIMINAL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>&quot;CRIMINAL</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F9</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F9]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F9</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>77</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F10</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F10</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F11</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F11]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F11</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F12</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F12</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>122</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F13</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F13]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F13</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>129</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F14</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F14]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F14</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>343</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F15</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F15]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F15</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>621</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F16</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F16]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F16</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>588</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F17</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F17]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F17</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>395</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F18</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F18</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>395</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F19</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F19]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F19</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Political Juggernauts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>385</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Political Juggernauts.csv' id='Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9'>
+            <properties context=''>
+              <relation connection='textscan.155befr1j29kaq115vg6o0bfwp8g' name='Political Juggernauts.csv' table='[Political Juggernauts#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='STATE' ordinal='0' />
+                  <column datatype='string' name='CONSTITUENCY' ordinal='1' />
+                  <column datatype='string' name='NAME' ordinal='2' />
+                  <column datatype='integer' name='WINNER' ordinal='3' />
+                  <column datatype='string' name='PARTY' ordinal='4' />
+                  <column datatype='string' name='SYMBOL' ordinal='5' />
+                  <column datatype='string' name='GENDER' ordinal='6' />
+                  <column datatype='integer' name='&quot;CRIMINAL' ordinal='7' />
+                  <column datatype='integer' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='F11' ordinal='10' />
+                  <column datatype='string' name='F12' ordinal='11' />
+                  <column datatype='integer' name='F13' ordinal='12' />
+                  <column datatype='integer' name='F14' ordinal='13' />
+                  <column datatype='integer' name='F15' ordinal='14' />
+                  <column datatype='integer' name='F16' ordinal='15' />
+                  <column datatype='real' name='F17' ordinal='16' />
+                  <column datatype='real' name='F18' ordinal='17' />
+                  <column datatype='integer' name='F19' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Political Juggernauts' inline='true' name='federated.0kim8br181g2gw16uiekp1r2417r' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Political Juggernauts' name='textscan.1heh4e01876mf9151511f0xy4gt2'>
+            <connection class='textscan' directory='C:/Users/ELCOT/AppData/Desktop/Downloads' filename='Political Juggernauts.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1heh4e01876mf9151511f0xy4gt2' name='Political Juggernauts.csv1' table='[Political Juggernauts#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='STATE' ordinal='0' />
+            <column datatype='string' name='CONSTITUENCY' ordinal='1' />
+            <column datatype='string' name='NAME' ordinal='2' />
+            <column datatype='integer' name='WINNER' ordinal='3' />
+            <column datatype='string' name='PARTY' ordinal='4' />
+            <column datatype='string' name='SYMBOL' ordinal='5' />
+            <column datatype='string' name='GENDER' ordinal='6' />
+            <column datatype='integer' name='&quot;CRIMINAL' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='integer' name='F19' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1heh4e01876mf9151511f0xy4gt2' name='Political Juggernauts.csv1' table='[Political Juggernauts#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='STATE' ordinal='0' />
+            <column datatype='string' name='CONSTITUENCY' ordinal='1' />
+            <column datatype='string' name='NAME' ordinal='2' />
+            <column datatype='integer' name='WINNER' ordinal='3' />
+            <column datatype='string' name='PARTY' ordinal='4' />
+            <column datatype='string' name='SYMBOL' ordinal='5' />
+            <column datatype='string' name='GENDER' ordinal='6' />
+            <column datatype='integer' name='&quot;CRIMINAL' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='integer' name='F19' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[&quot;CRIMINAL (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[&quot;CRIMINAL]' />
+          <map key='[CONSTITUENCY (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[CONSTITUENCY]' />
+          <map key='[F10 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F10]' />
+          <map key='[F11 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F11]' />
+          <map key='[F12 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F12]' />
+          <map key='[F13 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F13]' />
+          <map key='[F14 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F14]' />
+          <map key='[F15 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F15]' />
+          <map key='[F16 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F16]' />
+          <map key='[F17 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F17]' />
+          <map key='[F18 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F18]' />
+          <map key='[F19 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F19]' />
+          <map key='[F9 (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[F9]' />
+          <map key='[GENDER (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[GENDER]' />
+          <map key='[NAME (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[NAME]' />
+          <map key='[PARTY (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[PARTY]' />
+          <map key='[STATE (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[STATE]' />
+          <map key='[SYMBOL (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[SYMBOL]' />
+          <map key='[WINNER (Political Juggernauts.csv1)]' value='[Political Juggernauts.csv1].[WINNER]' />
+        </cols>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='quote-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATE (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>STATE</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONSTITUENCY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CONSTITUENCY (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>CONSTITUENCY</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WINNER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WINNER (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>WINNER</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PARTY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PARTY (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>PARTY</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SYMBOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SYMBOL (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>SYMBOL</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENDER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GENDER (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>GENDER</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>&quot;CRIMINAL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[&quot;CRIMINAL (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>&quot;CRIMINAL</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F9 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F10 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F11 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F12 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F13 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F14 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F15 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F16 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F17 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F18 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F19 (Political Juggernauts.csv1)]</local-name>
+            <parent-name>[Political Juggernauts.csv1]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[STATE (Political Juggernauts.csv1)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Political Juggernauts.csv1' datatype='table' name='[__tableau_internal_object_id__].[Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/ELCOT/Documents/My Tableau Repository/Datasources/data sourese/Political Juggernauts.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <cols>
+            <map key='[&quot;CRIMINAL (Political Juggernauts.csv1)]' value='[Extract].[&quot;CRIMINAL]' />
+            <map key='[CONSTITUENCY (Political Juggernauts.csv1)]' value='[Extract].[CONSTITUENCY]' />
+            <map key='[F10 (Political Juggernauts.csv1)]' value='[Extract].[F10]' />
+            <map key='[F11 (Political Juggernauts.csv1)]' value='[Extract].[F11]' />
+            <map key='[F12 (Political Juggernauts.csv1)]' value='[Extract].[F12]' />
+            <map key='[F13 (Political Juggernauts.csv1)]' value='[Extract].[F13]' />
+            <map key='[F14 (Political Juggernauts.csv1)]' value='[Extract].[F14]' />
+            <map key='[F15 (Political Juggernauts.csv1)]' value='[Extract].[F15]' />
+            <map key='[F16 (Political Juggernauts.csv1)]' value='[Extract].[F16]' />
+            <map key='[F17 (Political Juggernauts.csv1)]' value='[Extract].[F17]' />
+            <map key='[F18 (Political Juggernauts.csv1)]' value='[Extract].[F18]' />
+            <map key='[F19 (Political Juggernauts.csv1)]' value='[Extract].[F19]' />
+            <map key='[F9 (Political Juggernauts.csv1)]' value='[Extract].[F9]' />
+            <map key='[GENDER (Political Juggernauts.csv1)]' value='[Extract].[GENDER]' />
+            <map key='[NAME (Political Juggernauts.csv1)]' value='[Extract].[NAME]' />
+            <map key='[PARTY (Political Juggernauts.csv1)]' value='[Extract].[PARTY]' />
+            <map key='[STATE (Political Juggernauts.csv1)]' value='[Extract].[STATE]' />
+            <map key='[SYMBOL (Political Juggernauts.csv1)]' value='[Extract].[SYMBOL]' />
+            <map key='[WINNER (Political Juggernauts.csv1)]' value='[Extract].[WINNER]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>STATE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STATE (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STATE</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>314</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CONSTITUENCY</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CONSTITUENCY (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CONSTITUENCY</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1598</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NAME (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NAME</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1688</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WINNER</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[WINNER (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WINNER</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1574</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PARTY</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PARTY (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PARTY</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1340</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SYMBOL</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SYMBOL (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SYMBOL</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1145</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GENDER</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GENDER (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GENDER</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>538</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>&quot;CRIMINAL</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[&quot;CRIMINAL (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>&quot;CRIMINAL</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F9</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F9 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F9</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>77</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F10</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F10 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F10</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F11</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F11 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F11</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F12</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F12 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F12</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>122</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F13</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F13 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F13</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>129</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F14</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F14 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F14</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>343</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F15</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F15 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F15</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>621</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F16</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F16 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F16</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>588</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F17</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F17 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F17</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>395</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F18</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F18 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F18</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>395</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F19</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F19 (Political Juggernauts.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F19</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Political Juggernauts.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>385</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Political Juggernauts.csv1' id='Political Juggernauts.csv_01F663B1D199490A85F7827AAB38206D'>
+            <properties context=''>
+              <relation connection='textscan.1heh4e01876mf9151511f0xy4gt2' name='Political Juggernauts.csv1' table='[Political Juggernauts#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='STATE' ordinal='0' />
+                  <column datatype='string' name='CONSTITUENCY' ordinal='1' />
+                  <column datatype='string' name='NAME' ordinal='2' />
+                  <column datatype='integer' name='WINNER' ordinal='3' />
+                  <column datatype='string' name='PARTY' ordinal='4' />
+                  <column datatype='string' name='SYMBOL' ordinal='5' />
+                  <column datatype='string' name='GENDER' ordinal='6' />
+                  <column datatype='integer' name='&quot;CRIMINAL' ordinal='7' />
+                  <column datatype='integer' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='F11' ordinal='10' />
+                  <column datatype='string' name='F12' ordinal='11' />
+                  <column datatype='integer' name='F13' ordinal='12' />
+                  <column datatype='integer' name='F14' ordinal='13' />
+                  <column datatype='integer' name='F15' ordinal='14' />
+                  <column datatype='integer' name='F16' ordinal='15' />
+                  <column datatype='real' name='F17' ordinal='16' />
+                  <column datatype='real' name='F18' ordinal='17' />
+                  <column datatype='integer' name='F19' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='MOST COMPETITIVE ELETIONS IN RECENT VOTES'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Political Juggernauts (2)' name='federated.0uyh0c80v984xn1go5xj10dqs4ug' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uyh0c80v984xn1go5xj10dqs4ug'>
+            <column datatype='integer' name='[F15]' role='measure' type='quantitative' />
+            <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+            <column-instance column='[NAME]' derivation='None' name='[none:NAME:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F15]' derivation='Sum' name='[sum:F15:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[sum:F15:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[sum:F15:qk]' />
+              <text column='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[none:NAME:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{ECA6945B-9A26-4AA6-B2EE-D7D53A553554}' />
+    </worksheet>
+    <worksheet name='POLITICAL DOMAINCE NOW MATCHES THE CONGRESS STATES'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Political Juggernauts (2)' name='federated.0uyh0c80v984xn1go5xj10dqs4ug' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uyh0c80v984xn1go5xj10dqs4ug'>
+            <column datatype='integer' name='[F15]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[STATE]' derivation='None' name='[none:STATE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F15]' derivation='Sum' name='[sum:F15:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[none:STATE:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;1 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;\&quot;&quot;</bucket>
+              <bucket>&quot;~ 1 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 1 Hund+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 1 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 1 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 2 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 2 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 2 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 3 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 3 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 4 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 4 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 4 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 5 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 5 Hund+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 5 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 6 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 6 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 6 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 7 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 7 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 8 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 8 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 8 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 9 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 9 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 9 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 10 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 10 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 10 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 11 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 11 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 11 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 12 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 12 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 12 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 13 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 13 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 14 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 14 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 15 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 15 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 15 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 16 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 16 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 16 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 17 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 17 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 17 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 18 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 18 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 19 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 19 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 20 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 20 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 20 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 21 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 21 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 21 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 22 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 22 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 22 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 23 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 23 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 23 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 24 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 24 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 25 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 25 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 25 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 26 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 26 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 27 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 27 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 27 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 28 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 28 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 28 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 29 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 29 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 30 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 30 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 30 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 31 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 31 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 31 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 32 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 32 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 32 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 33 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 33 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 33 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 34 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 34 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 35 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 35 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 36 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 36 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 36 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 37 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 37 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 37 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 38 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 38 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 38 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 39 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 39 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 39 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 40 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 40 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 40 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 41 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 41 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 41 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 42 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 42 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 42 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 43 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 43 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 44 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 44 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 44 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 45 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 45 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 45 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 46 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 46 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 47 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 47 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 47 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 48 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 48 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 49 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 49 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 50 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 50 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 50 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 51 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 51 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 51 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 52 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 52 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 52 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 53 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 53 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 54 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 54 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 55 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 55 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 55 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 56 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 56 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 57 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 57 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 57 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 58 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 58 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 59 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 59 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 60 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 60 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 60 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 61 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 61 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 61 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 62 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 62 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 62 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 63 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 63 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 64 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 64 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 65 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 65 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 66 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 66 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 67 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 67 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 68 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 68 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 69 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 69 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 70 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 70 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 70 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 71 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 71 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 71 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 72 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 72 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 73 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 73 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 74 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 74 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 74 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 75 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 75 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 75 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 76 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 76 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 77 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 77 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 77 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 78 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 78 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 79 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 79 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 79 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 80 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 80 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 81 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 81 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 82 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 83 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 84 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 84 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 85 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 85 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 85 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 86 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 86 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 87 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 87 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 88 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 89 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 89 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 89 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 90 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 90 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 90 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 91 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 91 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 92 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 92 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 93 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 94 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 94 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 95 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 95 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 96 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 96 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 97 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 97 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 97 Thou+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 98 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 99 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 99 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 100 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 101 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 102 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 104 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 107 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 113 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 114 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 115 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 117 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 119 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 123 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 124 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 125 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 126 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 127 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 128 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 131 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 133 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 135 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 136 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 140 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 147 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 154 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 163 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 165 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 182 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 184 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 193 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 199 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 202 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 204 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 217 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 220 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 221 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 232 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 237 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 249 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 250 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 305 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 325 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 338 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 341 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 347 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 374 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 417 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 660 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~ 895 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~1 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~2 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~3 Crore+\&quot;&quot;</bucket>
+              <bucket>&quot;~4 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~5 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~6 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~22 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~49 Lacs+\&quot;&quot;</bucket>
+              <bucket>&quot;~\&quot;&quot;</bucket>
+              <bucket>&quot;Andhra Pradesh&quot;</bucket>
+              <bucket>&quot;Arunachal Pradesh&quot;</bucket>
+              <bucket>&quot;Assam&quot;</bucket>
+              <bucket>&quot;Bihar&quot;</bucket>
+              <bucket>&quot;CASES\&quot;&quot;</bucket>
+              <bucket>&quot;Chandigarh&quot;</bucket>
+              <bucket>&quot;Chhattisgarh&quot;</bucket>
+              <bucket>&quot;Dadra &amp; Nagar Haveli&quot;</bucket>
+              <bucket>&quot;Daman &amp; Diu&quot;</bucket>
+              <bucket>&quot;Goa&quot;</bucket>
+              <bucket>&quot;Gujarat&quot;</bucket>
+              <bucket>&quot;Haryana&quot;</bucket>
+              <bucket>&quot;Himachal Pradesh&quot;</bucket>
+              <bucket>&quot;Andaman &amp; Nicobar Islands&quot;</bucket>
+              <bucket>&quot;IN CONSTITUENCY\&quot;&quot;</bucket>
+              <bucket>&quot;Jammu &amp; Kashmir&quot;</bucket>
+              <bucket>&quot;Jharkhand&quot;</bucket>
+              <bucket>&quot;Karnataka&quot;</bucket>
+              <bucket>&quot;Kerala&quot;</bucket>
+              <bucket>&quot;Lakshadweep&quot;</bucket>
+              <bucket>&quot;Madhya Pradesh&quot;</bucket>
+              <bucket>&quot;Maharashtra&quot;</bucket>
+              <bucket>&quot;Manipur&quot;</bucket>
+              <bucket>&quot;Meghalaya&quot;</bucket>
+              <bucket>&quot;Mizoram&quot;</bucket>
+              <bucket>&quot;Nagaland&quot;</bucket>
+              <bucket>&quot;NCT OF Delhi&quot;</bucket>
+              <bucket>&quot;Odisha&quot;</bucket>
+              <bucket>&quot;Puducherry&quot;</bucket>
+              <bucket>&quot;Punjab&quot;</bucket>
+              <bucket>&quot;Rajasthan&quot;</bucket>
+              <bucket>&quot;Sikkim&quot;</bucket>
+              <bucket>&quot;Tamil Nadu&quot;</bucket>
+              <bucket>&quot;Telangana&quot;</bucket>
+              <bucket>&quot;Tripura&quot;</bucket>
+              <bucket>&quot;Uttar Pradesh&quot;</bucket>
+              <bucket>&quot;Uttarakhand&quot;</bucket>
+              <bucket>&quot;VOTES\&quot;&quot;</bucket>
+              <bucket>&quot;West Bengal&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[sum:F15:qk]' included-values='in-range'>
+            <min>325</min>
+            <max>372517</max>
+          </filter>
+          <slices>
+            <column>[federated.0uyh0c80v984xn1go5xj10dqs4ug].[sum:F15:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[sum:F15:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0uyh0c80v984xn1go5xj10dqs4ug].[none:STATE:nk]</rows>
+        <cols>[federated.0uyh0c80v984xn1go5xj10dqs4ug].[sum:F15:qk]</cols>
+      </table>
+      <simple-id uuid='{83D68826-757B-4FC3-AFF8-228ACBAFB443}' />
+    </worksheet>
+    <worksheet name='POLITICAL JUGGERNAULT'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Political Juggernauts (2)' name='federated.0uyh0c80v984xn1go5xj10dqs4ug' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0uyh0c80v984xn1go5xj10dqs4ug'>
+            <_.fcp.ObjectModelTableType.false...column caption='Political Juggernauts.csv' datatype='integer' name='[__tableau_internal_object_id__].[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Political Juggernauts.csv' datatype='table' name='[__tableau_internal_object_id__].[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[STATE]' derivation='None' name='[none:STATE:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[__tableau_internal_object_id__].[cnt:Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[__tableau_internal_object_id__].[cnt:Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9:qk]' />
+              <color column='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[__tableau_internal_object_id__].[cnt:Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9:qk]' />
+              <text column='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[none:STATE:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#499894' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{49BFA572-BC1D-43C5-AFFA-D1E1A06C928C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='57700' x='800' y='1000'>
+              <zone h='49000' id='3' name='POLITICAL JUGGERNAULT' w='57700' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='POLITICAL DOMAINCE NOW MATCHES THE CONGRESS STATES' w='57700' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='407' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='40700' x='58500' y='1000'>
+              <zone h='8125' id='8' name='POLITICAL JUGGERNAULT' pane-specification-id='0' param='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[__tableau_internal_object_id__].[cnt:Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9:qk]' type-v2='color' w='40700' x='58500' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='52875' id='10' name='MOST COMPETITIVE ELETIONS IN RECENT VOTES' w='40700' x='58500' y='9125'>
+                <layout-cache fixed-size-h='415' fixed-size-w='344' type-h='fixed' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='60' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='59' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='POLITICAL DOMAINCE NOW MATCHES THE CONGRESS STATES' w='57700' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='52875' id='10' is-fixed='true' name='MOST COMPETITIVE ELETIONS IN RECENT VOTES' w='40700' x='58500' y='9125'>
+                  <layout-cache fixed-size-h='415' fixed-size-w='344' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='POLITICAL JUGGERNAULT' w='57700' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8125' id='8' name='POLITICAL JUGGERNAULT' pane-specification-id='0' param='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[__tableau_internal_object_id__].[cnt:Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9:qk]' type-v2='color' w='40700' x='58500' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CC33AB75-48D1-434F-A87B-19993471D7BB}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='3423' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4253' />
+            <zone h='84440' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14730'>
+              <flipboard active-id='4' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='the 17th lok sabha was formed by the members elected in the 2019 indian general election' captured-sheet='Dashboard 1' id='4' />
+                  <story-point caption='Elections all across india,were conducted in seven phases from 11 apirl 2019 to may by the Election commission of india' captured-sheet='POLITICAL JUGGERNAULT' id='1' />
+                  <story-point caption='There are 8039 candidates contesting for 542 parliamentary constitesting, on average 14.8 candidates are contesting per constituency across the country' captured-sheet='POLITICAL DOMAINCE NOW MATCHES THE CONGRESS STATES' id='2' />
+                  <story-point caption='the constitution of india alllows for a maximum of 550 members in house,with530 members representing the states and 20 representing the union territories' captured-sheet='MOST COMPETITIVE ELETIONS IN RECENT VOTES' id='3' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{058FB44D-79AD-47E6-A10F-2C8960B68E0B}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='POLITICAL JUGGERNAULT'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0uyh0c80v984xn1go5xj10dqs4ug].[__tableau_internal_object_id__].[cnt:Political Juggernauts.csv_EB3BADF75959426C96EA60BC6D9385B9:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8985745A-31DE-45DE-8417-8CCFC4109CAF}' />
+    </window>
+    <window class='worksheet' name='POLITICAL DOMAINCE NOW MATCHES THE CONGRESS STATES'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6CAB17BD-2950-4A92-ADC0-1702D1805E7D}' />
+    </window>
+    <window class='worksheet' name='MOST COMPETITIVE ELETIONS IN RECENT VOTES'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EBE5D35C-EF93-4622-ADD7-ED18D4EB49BB}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='MOST COMPETITIVE ELETIONS IN RECENT VOTES' />
+        <viewpoint name='POLITICAL DOMAINCE NOW MATCHES THE CONGRESS STATES' />
+        <viewpoint name='POLITICAL JUGGERNAULT' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{45864513-69D2-4278-9B1A-2FC5D438D6E8}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{A19014C7-A114-471B-AD29-1F51633EC99F}' />
+    </window>
+  </windows>
+</workbook>

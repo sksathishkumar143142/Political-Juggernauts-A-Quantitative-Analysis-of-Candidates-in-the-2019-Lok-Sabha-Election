@@ -1,0 +1,31 @@
+POLITICAL JUGGERNAUTS LOK SABHA 2019 ELECTIONS
+  
+   creating Dashboard,story using tableu and analyzing candidates of 2019 lok sabha elections.
+        
+        PROJECT DESCRIPTION:
+
+                            The lok sabha is composed of repesentiatives of pepole chosen by direct election  on the basis of pepole chosen by direct on the basis of universal
+  
+                              adult suffers. the consiution of india allows for a maximum of 550 members in the house with 530 members representing the staes 20 representing
+                              the union territories the states and the 17th lok sabha was formed by the members elected in the 2019 indian general election all across
+                              Elections all across india were conducted in seven phases from 11 apirl 2019 to may by the election commission of india.
+
+                                     the bharatiya janata party recived 37.36% of the vote the highest vote share by a political party since the 1989 general election and won 303 seats
+                                       further increasing its substantial majority in addition the BJP-led Natonal Democratic.
+
+
+
+                TEAM MEMBETRS:
+                               G:SUBRAMANI
+                                G.SARATHI
+                                S.SRIDHAR
+                                 S.SRIKANTH
+      
+             FUTURE SCOPE:
+                           school studentns and colleage students votes avarness poor pepole election avarness knowlege 
+
+            TABLEAU SOFTWARE:
+                              this is a software is very knowlege is colleage student is type of charts tbales desain using students knowleage
+
+          CONCLUSION:
+                           thank you all knowleage is power
